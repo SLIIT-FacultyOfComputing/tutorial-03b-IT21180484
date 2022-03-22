@@ -15,7 +15,7 @@ int main() {
     cout << "Enter Box 1 Length : ";
     cin >> box1Length;
     
-     cout << "Enter Box 2 Height : ";
+     cout <<endl<< "Enter Box 2 Height : ";
     cin >> box2Height;
     cout << "Enter Box 2 Width : ";
     cin >> box2Width;
@@ -29,5 +29,10 @@ int main() {
     
     return 0;
 }
+int volume(int height, int width, int length)
+{
+  float volume;
+  volume=height*width*width;
+  return volume;
 
-// Implement the Volume() function here
+}
